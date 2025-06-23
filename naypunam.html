@@ -1,0 +1,294 @@
+<html>
+    <head>
+        <title> naypunam project-3</title>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+        <style>
+            body{
+                padding:100px 50px;
+            }
+       .parent{
+        display:flex;
+        justify-content:space-between;
+       }
+       .child{
+        margin:10px;
+       }
+       input,select{
+       width: 360px; 
+       padding:10px;      
+    }
+    button{
+        height: 50px;
+       width: fit-content;
+       cursor: pointer;
+       background-color: rgb(240, 41, 41);
+       color: white;
+       border-radius: 9px;
+       text-align: center;
+    }
+    .button2 {
+        background-color: #5aacd8;
+    }
+                
+</style>
+    </head>
+    <body>
+        <hr>
+        <hr><button class="button">Personal Details</button><br><br>
+        
+        <form>
+          <div class="parent"> 
+        <div class="child"> 
+            <label for="DOB"> Date Of Birth</label><br>
+            <input type="date" id=" DOB" name="DOB" required class="form-control">          
+                </div><br><br>
+                <div class="child">  
+            <label for="aadhar">Aadhar</label><br>
+            <input type="text" id=" aadhar" name="aadhar" required class="form-control">
+                   </div> <br><br>
+                   <div class="child"> 
+             <label for="full name">Full Name</label><br>
+            <input type="text" id=" full name" name="full name" required class="form-control">
+        </div>
+        </div><br><br>
+            <div class="parent">
+            <div class="child">
+            <label for="name">Father Name</label><br>
+            <input type="text" id=" name" name="name" required class="form-control">
+</div><br><br>
+<div class="child">
+             <label for="age">Age</label><br>
+            <input type="number" id=" age" name="age" required class="form-control">
+</div><br><br>
+<div class="child">
+             <label for="gender">Gender</label><br>
+            <select  name="gender" id="gender" required class="form-control">
+                 <option value=" "> </option>
+                <option value="male">Male</option>
+                <option value="female">FeMale</option>  
+                <option value="others">others</option> 
+                </select>  
+                </div>
+                </div><br><br>
+               <div class="parent"> 
+            <div class="child"> 
+                   <label for="maritial status">Maritial Status</label>     
+             <select  name="maritial status" id="maritial status" required class="form-control">
+                 <option value=" "> </option>
+                <option value="married">Married</option>
+                <option value="unmarried">UnMarried </option>                  
+                </select>  
+            </div> 
+                <div class="child"> 
+                 <label for="Religion">Religion</label><br>
+                <select  name="Religion" id="Religion" required class="form-control">
+                <option value="hindu">Hindu</option>
+                <option value="christan">Christan</option> 
+                    <option value="muslim">Muslim</option>               
+                </select>  
+            </div>
+              <div class="child"> 
+                <label for="Category">Category</label><br>
+                <select  name="Category" id="Category" required class="form-control">
+                 <option value=" "> </option>
+                <option value="obc">OBC</option>
+                <option value="sc/st">SC/ST</option>  
+                <option value="oc">OC</option> 
+                </select>
+              </div>
+            </div> <br><br>   
+         <div class="parent"> 
+            <div class="child">
+            <label for="CAre you a resident of Ap state">Are you a resident of Ap state</label><br>
+                <select  name="Are you a resident of Ap state" id="Are you a resident of Ap state" required>
+                <option value=" "> </option>
+                <option value="yes">YES</option>
+                <option value="no">NO</option>                  
+                </select>
+            </div>
+             <div class="child">
+                 <label for="Disibility">Disibility</label><br>
+                <select  name="Disibility" id="Disibility" required class="form-control">
+                <option value=" "> </option>
+                <option value="yes">YES</option>
+                <option value="no">NO</option>  
+                 </select>
+             </div>
+        </div>
+        <br><br>
+        
+         <div class="child">
+             <label for="my file">UPLOAD PROFILE PHOTO</label><br>
+            <input type="file" id="my file" name="my file">
+          </div><br><br>
+          <hr><hr><button class="button">contact Information</button><br><br>
+                
+
+          <div class="parent"> 
+        <div class="child"> 
+            <label for="Email address">Email address</label><br>
+            <input type="text" id="Email address" name="Email address" required>           
+                </div><br><br>
+                <div class="child">  
+            <label for="Mobile Number">Mobile Number</label><br>
+            <input type="text" id=" Mobile Number" name="Mobile Number" required>
+                   </div> <br><br>
+                   <div class="child"> 
+             <label for="Alternative Mobile Number">Alternative Mobile Number</label><br>
+            <input type="text" id=" Alternative Mobile Number" name="Alternative Mobile Number" required>
+        </div>
+        </div><br><br><br>
+        <br>
+        <hr><hr><button class="button">Login Details</button><br><br><br>
+                 
+
+          <div class="parent"> 
+        <div class="child"> 
+            <label for="User Name">User Name</label><br>
+            <input type="text" id="User Name" name="User Name" required>           
+                </div><br><br>
+                <div class="child">  
+            <label for=">Password">Password</label><br>
+            <input type="text" id=" >Password" name=">Password" required>
+                   </div> <br><br>
+                   <div class="child"> 
+             <label for="Re-Enter Password">Re-Enter Password</label><br>
+            <input type="text" id=" Re-Enter Password" name="Re-Enter Password" required>
+        </div>
+        </div><br><br><br>
+
+       <hr><hr><button class="button">Communication Address</button><br><br><br>
+        
+        <div class="subchild"> 
+       <label for="rural"> Rural</label>
+       <input type="radio" id=" rural" name=" rural">
+       
+       <label for="urban">Urban</label>
+       <input type="radio" id="urban" name="urban"><br><br>
+        </div><br><br>
+
+       
+       <div class="parent"> 
+            <div class="child"> 
+                   <label for="state">state</label>     
+             <select  name="state" id="state" required>
+                 <option value=" "> </option>
+                <option value="Andhra Pradesh">Andhra Pradesh</option>
+                <option value="Assam">Assam </option>
+                <option value="Arunachal Pradesh.">Arunachal Pradesh </option> 
+                <option value="Bihar">Bihar</option> 
+                <option value="Chhattisgarh.">Chhattisgarh</option> 
+                <option value="Goa">Goa</option> 
+                <option value="Gujarat">Gujarat</option> 
+                <option value="Haryana.">Haryana</option>                   
+                <option value="Rajasthan">Rajasthan</option> 
+                <option value="Himachal Pradesh">Himachal Pradesh </option> 
+                <option value="Jharkhand">Jharkhand</option> 
+                <option value="Karnataka">Karnataka</option> 
+                <option value="Kerala">Kerala</option> 
+                <option value="Maharashtra">Maharashtra</option> 
+                <option value="Madhya Pradesh">Madhya Pradesh</option> 
+                <option value="Manipur">Manipur</option> 
+                <option value="Meghalaya">Meghalaya</option> 
+                <option value="Mizoram">Mizoram</option> 
+                <option value="Nagaland">Nagaland</option> 
+                <option value="Odisha">Odisha</option> 
+                <option value="Tamil Nadu">Tamil Nadu</option>
+                <option value="West Bengal">West Bengal</option> 
+
+                </select>  
+            </div> 
+                <div class="child"> 
+                 <label for="District">District</label><br>
+                <select  name="District" id="District" required>
+                <option value=" "> </option>
+                <option value="Srikakulam">Srikakulam</option>
+                <option value="Vizianagaram">Vizianagaram</option> 
+                <option value="Visakhapatnam">Visakhapatnam</option> 
+                <option value="Anakapalli">Anakapalli</option> 
+                <option value="	Kakinada">Kakinada</option>               
+                <option value="Eluru">Eluru</option> 
+                <option value=" Chittoor"> Chittoor</option> 
+                <option value="	Guntur">Guntur</option> 
+                <option value="	ntr">ntr</option> 
+                 <option value=" Palnadu"> Palnadu</option> 
+                <option value="	Bapatla">Bapatla</option> 
+                <option value="	Prakasam">Prakasam</option> 
+                <option value=" YSR Kadapa"> YSR Kadapa</option> 
+                <option value=" West Godavari"> West Godavari</option> 
+                <option value=" Krishna"> Krishna</option> 
+
+            </select>  
+            </div>
+
+              <div class="child"> 
+                <label for="mandal">Mandal</label><br>
+                <select  name="mandal" id="mandal" required>
+                 <option value=" "> </option>
+                <option value="mylavaram">mylavaram</option>
+                <option value="THOLUKODU">THOLUKODU</option>  
+                <option value="PARVATHAPURAM">PARVATHAPURAM</option> 
+                <option value="CHANDRALA">CHANDRALA</option> 
+                <option value="DASULLAPALEM">DASULLAPALEM</option> 
+                <option value="GANAPAVARAM">GANAPAVARAM</option> 
+                <option value="JANGALAPALLE">JANGALAPALLE</option> 
+                <option value="Cheepurupalli">Cheepurupalli</option> 
+                <option value="KANIMERLA">KANIMERLA</option> 
+                <option value="KEERTHIRAYANIGUDEM">KEERTHIRAYANIGUDEM</option> 
+                <option value="	MORUSUMILLI">MORUSUMILLI</option> 
+                <option value="	MULAKALAPANTA">MULAKALAPANTA</option> 
+                <option value="	PONDUGULA">PULLURU</option> 
+                <option value="	SABJAPADU">SABJAPADU</option> 
+                <option value="	VELVADAM">VELVADAM</option> 
+               </select>
+              </div>
+            </div> <br><br> 
+            <div class="parent">   
+              <div class="child"> 
+                 <label for="Parliment Constituency">Parliment Constituency</label><br>
+                <select  name="Parliment Constituency" id="Parliment Constituency" required>
+                <option value=" "> </option>
+                <option value="yes">YES</option>
+                <option value="no">NO</option>                 
+                </select>  
+            </div>
+             <div class="child"> 
+                 <label for="Assembly Constituency">Assembly Constituency</label><br>
+                <select  name="Assembly Constituency" id="Assembly Constituency" required>
+                <option value=" "> </option>
+                <option value="yes">YES</option>
+                <option value="no">NO</option>                 
+                </select>  
+            </div>
+            <div class="child"> 
+            <label for="housde no">House no</label><br>
+            <input type="text" id="house no" name="house no" required>           
+                </div><br><br>
+            </div><br><br>
+            <div class="parent">
+                <div class="child">
+                    <label for="Ward No "> Ward No</label><br>
+                    <input type=" text" id=" Ward No" name="Ward No">
+                </div>
+                <div class="child">
+                    <label for="Street"> Street</label><br>
+                    <input type=" text" id="Street" name="Street">
+                </div>
+                <div class="child">
+                    <label for="City">City</label><br>
+                    <input type=" text" id="City" name="City">
+                </div>
+            </div><br><br>
+            <div class="parent">
+                <div class="child">
+                    <label for="Pincode">Pincode</label><br>
+                    <input type=" text" id="Pincode" name="Pincode">
+                </div>
+            </div class="child"><br><br><br>
+                <button class="button button2">NEXT</button>
+                 
+                </div>
+
+        </form>
+       </body>
+   </html>
